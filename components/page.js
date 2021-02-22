@@ -21,7 +21,7 @@ pageTemplate.innerHTML = `
       padding: 2.5vw 2.5vw;
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
+      justify-content: space-between:
     }
     
     @media (max-width: 600px) {
@@ -53,8 +53,8 @@ pageTemplate.innerHTML = `
       <nav>
         <a class="nav-item" href="art.html">art</a>
         <a class="nav-item" href="writing.html">writing</a>
-        <a class="nav-item" href="about.html">about</a>
         <a class="nav-item" href="photos.html">photography</a>
+        <a class="nav-item" href="about.html">about</a>
       </nav>
     </header>
     <slot></slot>
